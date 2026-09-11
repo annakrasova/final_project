@@ -15,39 +15,73 @@
 
 Структура проекта:
 Final project/ 
+
 ├── app/ 
+
 │ ├── __init__.py 
+
 │ ├── main.py 
+
 │ ├── model.py
+
 │ └── schemas.py 
+
 │ 
+
 ├── models/
+
 │ ├── logistic_pipeline.pkl 
+
 │ ├── lstm.pt 
+
 │ └── tokenizer.pkl 
+
 │ 
+
 ├── reports/ 
+
 │ ├── class_distribution.png
+
 │ ├── confusion_matrix_logistic.png 
+
 │ ├── confusion_matrix_lstm.png 
+
 │ ├── lstm_loss.png 
+
 │ ├── mean_text_length_byclasses.png 
+
 │ └── text_length_distribution.png 
+
 │ 
+
 ├── src/ 
+
 │ ├── __init__.py 
+
 │ ├── data.py 
+
 │ ├── eda.py 
+
 │ ├── train_dummy.py 
+
 │ ├── train_logistic.py 
+
 │ ├── train_lstm.py 
+
 │ └── evaluate.py 
+
 │ 
+
 ├── tests/ 
+
 │ └── test_api.py 
+
 │ 
+
 ├── requirements.txt 
+
 └── README.md
+
 
 Требования: python 3.13 
 
