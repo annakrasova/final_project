@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+torch
+joblib
+fastapi
+uvicorn
+pytest
+httpx2
